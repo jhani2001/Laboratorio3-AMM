@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejemplo03.MainPage">
+
+    <ScrollView>
+        <StackLayout BackgroundColor="Red">
+        <BoxView HeightRequest="800" WidthRequest="150"/>
+        <Entry/>
+        </StackLayout>
+    </ScrollView>
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Text="Ejemplo" BackgroundColor="Green"
+                Grid.Column="0"
+                Grid.Row="0"                                
+                />
+            <Button Text="Ejemplo" BackgroundColor="Yellow"
+                Grid.Column="1"
+                Grid.Row="0"                                
+                />
+        </Grid>
+        <Button Text="Ejemplo 8" BackgroundColor="Green"
+                Grid.Column="0"
+                Grid.Row="2"     
+                Grid.ColumnSpan="3"
+                />
+        <Button Text="Ejemplo" BackgroundColor="Brown"
+                Grid.Column="1"
+                Grid.Row="1"                                
+                />
+        <Button Text="Ejemplo" BackgroundColor="Red"
+                Grid.Column="1"
+                Grid.Row="0"                                
+                />
+
+
+    </Grid>-->
+    
+    
+    <!--HOLA-->
+    <!--<RelativeLayout>
+        
+        <Button x:Name="btnPrueba"
+                 BackgroundColor="Green" Text="Mi Primer Botón"                 
+                 RelativeLayout.HeightConstraint="{
+                 ConstraintExpression Type=RelativeToParent,
+                 Property=Height,
+                 Factor=0.5}"                
+                 RelativeLayout.WidthConstraint="{
+                 ConstraintExpression Type=RelativeToParent,
+                 Property=Width,
+                 Factor=0.5}"                                
+                ></Button>
+
+        <Button BackgroundColor="Yellow" Text="Mi Primer Botón"                 
+                 RelativeLayout.HeightConstraint="{
+                 ConstraintExpression Type=RelativeToView, ElementName=btnPrueba,
+                 Property=Height,
+                 Factor=0.25}"  
+                
+                
+                 RelativeLayout.YConstraint="{
+                 ConstraintExpression Type=RelativeToView, ElementName=btnPrueba,
+                 Property=Height,
+                 Factor=1.5}"
+                
+                 RelativeLayout.WidthConstraint="{
+                 ConstraintExpression Type=RelativeToParent,
+                 Property=Width,
+                 Factor=0.5}"                                
+                ></Button>
+
+        
+
+
+
+    </RelativeLayout>-->
+    <!--<AbsoluteLayout>
+        <Button BackgroundColor="Green" Text="Mi Primer Botón"
+                AbsoluteLayout.LayoutBounds="0,200,200,100"                               
+                ></Button>
+        <Button BackgroundColor="Yellow" Text="Mi Primer Botón"
+                AbsoluteLayout.LayoutBounds="0,0,200,100"                               
+                ></Button>
+    </AbsoluteLayout>-->
+    <!--<StackLayout >
+        <Button BackgroundColor="Green" 
+                Text="Mi Primer Botón"></Button>
+        <Button BackgroundColor="Green"
+            Text="Mi Primer Botón"></Button>
+        <Button BackgroundColor="Green"
+            Text="Mi Primer Botón"></Button>
+        
+        <StackLayout Orientation="Horizontal">
+            <StackLayout>
+            <Button BackgroundColor="Blue" 
+                Text="Mi Primer Botón"></Button>
+                <Button BackgroundColor="Blue" 
+                Text="Mi Primer Botón"></Button>
+                <Button BackgroundColor="Blue" 
+                Text="Mi Primer Botón"></Button>
+            </StackLayout>
+            <Button BackgroundColor="Yellow"
+            Text="Mi Primer Botón"></Button>
+            <Button BackgroundColor="Yellow"
+            Text="Mi Primer Botón"></Button>
+        </StackLayout>
+        
+    </StackLayout>-->
+
+</ContentPage>
